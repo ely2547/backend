@@ -142,17 +142,6 @@ app.get("/api/users/:id", async (req, res) => {
   }
 });
 
-// Crear un usuario
-// app.post("/api/users", async (req, res) => {
-//   try {
-//     const user = new User(req.body);
-//     const savedUser = await user.save();
-//     res.status(201).json(savedUser);
-//   } catch (error) {
-//     res.status(400).json({ message: error.message });
-//   }
-// });
-
 // Actualizar un usuario por id
 app.put("/api/users/:id", async (req, res) => {
   try {
