@@ -20,7 +20,7 @@ npm install
 npm install mongoose
 npm install cors
 Iniciar la aplicación:
-npm start
+node index.js
 
 # Uso:
 La aplicación se ejecuta en el puerto 3001 por defecto.
